@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Auto Club</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <link href="css/master.css" rel="stylesheet">
+
+    <!-- SWITCHER -->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="assets/switcher/css/switcher.css" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color1.css" title="color1" media="all"
+        data-default-color="true" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color2.css" title="color2" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color3.css" title="color3" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color4.css" title="color4" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color5.css" title="color5" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/color6.css" title="color6" media="all" />
+
+    <!--[if lt IE 9]>
+		<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body class="m-about" data-scrolling-animations="true">
+
+    <!-- Loader -->
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <!-- Loader end -->
+    <!-- Start Switcher -->
+    <div class="switcher-wrapper">
+        <div class="demo_changer">
+            <div class="demo-icon customBgColor"><i class="fa fa-cog fa-spin fa-2x"></i></div>
+            <div class="form_holder">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="predefined_styles">
+                            <div class="skin-theme-switcher">
+                                <h4>Color</h4>
+                                <a href="#" data-switchcolor="color1" class="styleswitch"
+                                    style="background-color:#f76d2b;"> </a>
+                                <a href="#" data-switchcolor="color2" class="styleswitch"
+                                    style="background-color:#de483d;"> </a>
+                                <a href="#" data-switchcolor="color3" class="styleswitch"
+                                    style="background-color:#228dcb;"> </a>
+                                <a href="#" data-switchcolor="color4" class="styleswitch"
+                                    style="background-color:#00bff3;"> </a>
+                                <a href="#" data-switchcolor="color5" class="styleswitch"
+                                    style="background-color:#2dcc70;"> </a>
+                                <a href="#" data-switchcolor="color6" class="styleswitch"
+                                    style="background-color:#6054c2;"> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Switcher -->
+
+    <!-- <header id="this-is-top" class="b-topBar wow slideInDown" data-wow-delay="0.7s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-6">
+                    <div class="b-topBar__addr">
+                        <span class="fa fa-map-marker"></span>
+                        202 W 7TH ST, LOS ANGELES, CA 90014
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="b-topBar__tel">
+                        <span class="fa fa-phone"></span>
+                        1-800- 624-5462
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <nav class="b-topBar__nav">
+                        <ul>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Sign in</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="b-topBar__lang">
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle='dropdown'>Language</a>
+                            <a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span
+                                    class="b-topBar__lang-flag m-en"></span>EN<span class="fa fa-caret-down"></span></a>
+                            <ul class="dropdown-menu h-lang">
+                                <li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span
+                                            class="b-topBar__lang-flag m-en"></span>EN</a></li>
+                                <li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span
+                                            class="b-topBar__lang-flag m-es"></span>ES</a></li>
+                                <li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span
+                                            class="b-topBar__lang-flag m-de"></span>DE</a></li>
+                                <li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span
+                                            class="b-topBar__lang-flag m-fr"></span>FR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!--b-topBar-->
+
+    <nav class="b-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-xs-4">
+                    <div class="b-nav__logo wow slideInLeft" data-wow-delay="0.3s">
+                        <h3><a href="home.html">LUXURY<span>STATUS</span></a></h3>
+                        <h2><a href="home.html">CAR DEALERS</a></h2>
+                    </div>
+                </div>
+                <div class="col-sm-9 col-xs-8">
+                    <div class="b-nav__list wow slideInRight" data-wow-delay="0.3s">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-main-slide" id="nav">
+                            <ul class="navbar-nav-menu">
+                                <li class="dropdown">
+                                    <a href="home.html">Home</a>
+
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="article.html">Services</a></li>
+                                <li><a href="contacts.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--b-nav-->
+
+    <section class="b-pageHeader">
+        <div class="container">
+            <h1 class="wow zoomInLeft" data-wow-delay="0.7s">About Us</h1>
+            <div class="b-pageHeader__search wow zoomInRight" data-wow-delay="0.7s">
+                <h3>The Largest Auto Dealer Online</h3>
+            </div>
+        </div>
+    </section>
+    <!--b-pageHeader-->
+
+    <div class="b-breadCumbs s-shadow">
+        <div class="container">
+            <a href="home.html" class="b-breadCumbs__page">Home</a><span class="fa fa-angle-right"></span><a
+                href="about.html" class="b-breadCumbs__page m-active">About Us</a>
+        </div>
+    </div>
+    <!--b-breadCumbs-->
+
+    <section class="b-best">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="b-best__info">
+                        <header class="s-lineDownLeft b-best__info-head">
+                            <h2 class="wow zoomInUp" data-wow-delay="0.5s">The Best &amp; the Largest Auto Dealer</h2>
+                        </header>
+                        <h6 class="wow zoomInUp" data-wow-delay="0.5s">If you're on the lookout for the finest selection
+                            and unparalleled service, then look no further than "Luxury-Status Car Dealers." </h6>
+                        <p class="wow zoomInUp" data-wow-delay="0.5s">From our exquisitely designed showrooms to
+                            meticulously curated collections of premium vehicles, luxury-status car dealership provides
+                            a
+                            truly elevated shopping experience. The sales staff at these establishments are experts in
+                            their field; they possess extensive knowledge about each vehicle's features and are able to
+                            offer personalized recommendations based on your preferences and lifestyle. Moreover, these
+                            dealerships often provide exceptional customer service that goes above and beyond
+                            expectations, ensuring that you feel valued throughout the entire buying process. So why
+                            settle for anything less when you can have it all with a luxury-status car dealership? Treat
+                            yourself to the ultimate automotive experience and drive away in style.</p>
+                        <a href="article.html" class="btn m-btn m-readMore wow zoomInUp" data-wow-delay="0.5s">view
+                            listings<span class="fa fa-angle-right"></span></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best"
+                        src="media/about/best.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--b-best-->
+
+    <section class="b-what s-shadow m-home">
+        <div class="container">
+            <h3 class="s-titleBg wow zoomInUp" data-wow-delay="0.5s">CUSTOMERS ARE IMPORTANT FOR US</h3><br />
+            <h2 class="s-title wow zoomInUp" data-wow-delay="0.5s">WHAT WE OFFERS</h2>
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <div class="b-world__item wow zoomInLeft" data-wow-delay="0.5s">
+                        <img class="img-responsive" src="media/370x200/wolks.jpg" alt="wolks" />
+                        <div class="b-world__item-val">
+                            <span class="b-world__item-val-title">WE OFFER</span>
+                        </div>
+                        <h2>Low Prices, No Haggling</h2>
+                        <p>Well, fret not, because low car prices and no haggling are becoming increasingly popular in
+                            the automotive industry. This refreshing approach allows customers to steer clear of the
+                            typical sales tactics and enjoy a stress-free buying experience.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="b-world__item wow zoomInUp" data-wow-delay="0.5s">
+                        <img class="img-responsive" src="media/370x200/mazda.jpg" alt="mazda" />
+                        <div class="b-world__item-val">
+                            <span class="b-world__item-val-title">WE ARE THE</span>
+                        </div>
+                        <h2>Largest Car Dealership</h2>
+                        <p>With a casual, laid-back atmosphere, you'll feel instantly comfortable browsing their vast
+                            inventory of cars, trucks, and SUVs. The knowledgeable sales team is always ready to assist
+                            and help you find the perfect vehicle that suits your needs and budget.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="b-world__item wow zoomInRight" data-wow-delay="0.5s">
+                        <img class="img-responsive" src="media/370x200/chevrolet.jpg" alt="chevrolet" />
+                        <div class="b-world__item-val">
+                            <span class="b-world__item-val-title">OUR CUSTOMERS GET</span>
+                        </div>
+                        <h2>Multipoint Safety Check</h2>
+                        <p>This is basically a pretty thorough examination of your vehicle to ensure that everything is
+                            in tip-top shape. It's like a little health check-up for your car! During this check,
+                            trained technicians inspect various components including brakes, tires, suspension, lights,
+                            fluids, and more. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--b-what-->
+
+    <section class="b-more">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="b-more__why wow zoomInLeft" data-wow-delay="0.5s">
+                        <h2 class="s-title">WHY CHOOSE US</h2>
+                        <p>Our car dealership provides a one-of-a-kind experience that is unmatched by other
+                            dealerships. Not only do they offer an extensive selection of high-end vehicles, but they
+                            also provide top-notch customer service to ensure your needs are met every step of the way.
+                            From knowledgeable salespeople who can guide you through the features and options available,
+                            to a luxurious showroom where you can visualize yourself behind the wheel, these dealerships
+                            go above and beyond to create a memorable shopping experience.</p>
+                        <ul class="s-list">
+                            <li><span class="fa fa-check"></span>Curating a collection of prestigious brands</li>
+                            <li><span class="fa fa-check"></span>Showcasing the latest models and limited editions</li>
+                            <li><span class="fa fa-check"></span>Emphasizing precision engineering and attention to detail </li>
+                            <li><span class="fa fa-check"></span>Highlighting advanced features and innovative technology</li>
+                            <li><span class="fa fa-check"></span>Creating a luxury buying experience tailored to individual preferences</li>
+                            <li><span class="fa fa-check"></span>Ensuring exemplary customer service and support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="b-more__info wow zoomInRight" data-wow-delay="0.5s">
+                        <h2 class="s-title">MORE INFO</h2>
+                        <div class="b-more__info-block">
+                            <div class="b-more__info-block-title">Fair Price for Everyone<a class="j-more"
+                                    href="#"><span class="fa fa-angle-left"></span></a></div>
+                            <div class="b-more__info-block-inside j-inside">
+                                <p>We all know that buying a car can be quite the financial investment, so it's
+                                    important to ensure that the price is fair and reasonable for everyone out there.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="b-more__info-block">
+                            <div class="b-more__info-block-title">Large Number of Vehicles<a href="#"
+                                    class="j-more"><span class="fa fa-angle-left"></span></a></div>
+                            <div class="b-more__info-block-inside j-inside">
+                                <p>When it comes to finding the perfect vehicle, having a large number of options can be
+                                    both exciting and overwhelming. Fortunately, the wide selection available means that
+                                    there is something for everyone's taste and budget.</p>
+                            </div>
+                        </div>
+                        <div class="b-more__info-block">
+                            <div class="b-more__info-block-title">Auto Loan Available<a href="#" class="j-more"><span
+                                        class="fa fa-angle-left"></span></a></div>
+                            <div class="b-more__info-block-inside j-inside">
+                                <p>So, you're in the market for a new car and need some financial assistance? Well,
+                                    lucky for you, auto car loans are readily available! These loans provide individuals
+                                    with the opportunity to purchase their dream car, paying it off in manageable
+                                    monthly installments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--b-more-->
+
+    <section class="b-personal s-shadow">
+        <div class="container">
+            <h3 class="s-titleBg wow zoomInUp" data-wow-delay="0.5s">the people you can trust ON</h3><br />
+            <h2 class="s-title wow zoomInUp" data-wow-delay="0.5s">OUR TEAM MEMBERS</h2>
+            <div id="carousel-small" class="owl-carousel enable-owl-carousel" data-items="4" data-navigation="true"
+                data-auto-play="true" data-stop-on-hover="true" data-items-desktop="4" data-items-desktop-small="3"
+                data-items-tablet="2" data-items-tablet-small="2">
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/jason.jpg" class="img-responsive" alt="jason" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Owner / Co-Invester</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Jason Roy</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/paul.jpg" class="img-responsive" alt="paul" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Delivery Incharge</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Paul Richard</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/peter.jpg" class="img-responsive" alt="peter" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Auto Reviewer / Technican</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Peter Harold</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/maria.jpg" class="img-responsive" alt="maria" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Sales Representative</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Maria Susan</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/jason.jpg" class="img-responsive" alt="jason" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Owner / Co-Invester</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Jason Roy</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/paul.jpg" class="img-responsive" alt="paul" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Delivery Incharge</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Paul Richard</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/peter.jpg" class="img-responsive" alt="peter" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Auto Reviewer / Technican</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Peter Harold</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="b-personal__worker wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-personal__worker-img">
+                            <img src="media/persons/maria.jpg" class="img-responsive" alt="maria" />
+                            <div class="b-personal__worker-img-social">
+                                <div class="b-personal__worker-img-social-main">
+                                    <a href="#"><span class="fa fa-facebook-square"></span></a>
+                                    <a href="#"><span class="fa fa-twitter-square"></span></a>
+                                    <a href="#"><span class="fa fa-pinterest-square"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Sales Representative</h6>
+                        <div class="b-personal__worker-name s-lineDownLeft">
+                            <h4 class="s-titleDet">Maria Susan</h4>
+                        </div>
+                        <p>Owner of AutoClub, started the company
+                            in 2005. A very hard working person who loves to drive the cars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--b-personal-->
+
+    <div class="b-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-md-offset-3 col-xs-6 col-xs-offset-6">
+                    <ul class="b-features__items">
+                        <li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100">Low Prices, No Haggling
+                        </li>
+                        <li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100">Largest Car Dealership</li>
+                        <li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100">Multipoint Safety Check
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--b-features-->
+
+    <div class="b-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-6">
+                    <aside class="b-info__aside wow zoomInLeft" data-wow-delay="0.3s">
+                        <article class="b-info__aside-article">
+                            <h3>OPENING HOURS</h3>
+                            <div class="b-info__aside-article-item">
+                                <h6>Sales Department</h6>
+                                <p>Mon-Sat : 8:00am - 5:00pm<br />
+                                    Sunday is closed</p>
+                            </div>
+                            <div class="b-info__aside-article-item">
+                                <h6>Service Department</h6>
+                                <p>Mon-Sat : 8:00am - 5:00pm<br />
+                                    Sunday is closed</p>
+                            </div>
+                        </article>
+                        <article class="b-info__aside-article">
+                            <h3>About us</h3>
+                            <p>Introducing innovative technologies, and ensuring customer satisfaction. We are
+                                responsible for designing and producing vehicles that cater to various needs and
+                                preferences, from stylish sports cars to eco-friendly electric ones.</p>
+                        </article>
+                        <a href="about.html" class="btn m-btn">Read More<span class="fa fa-angle-right"></span></a>
+                    </aside>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="b-info__latest">
+                        <h3>LATEST AUTOS</h3>
+                        <div class="b-info__latest-article wow zoomInUp" data-wow-delay="0.3s">
+                            <div class="b-info__latest-article-photo m-audi"></div>
+                            <div class="b-info__latest-article-info">
+                                <h6><a href="detail.html">MERCEDES-AMG GT S</a></h6>
+                                <p><span class="fa fa-tachometer"></span> 35,000 KM</p>
+                            </div>
+                        </div>
+                        <div class="b-info__latest-article wow zoomInUp" data-wow-delay="0.3s">
+                            <div class="b-info__latest-article-photo m-audiSpyder"></div>
+                            <div class="b-info__latest-article-info">
+                                <h6><a href="#">AUDI R8 SPYDER V-8</a></h6>
+                                <p><span class="fa fa-tachometer"></span> 35,000 KM</p>
+                            </div>
+                        </div>
+                        <div class="b-info__latest-article wow zoomInUp" data-wow-delay="0.3s">
+                            <div class="b-info__latest-article-photo m-aston"></div>
+                            <div class="b-info__latest-article-info">
+                                <h6><a href="#">ASTON MARTIN VANTAGE</a></h6>
+                                <p><span class="fa fa-tachometer"></span> 35,000 KM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="b-info__twitter">
+                        <h3>from twitter</h3>
+                        <div class="b-info__twitter-article wow zoomInUp" data-wow-delay="0.3s">
+                            <div class="b-info__twitter-article-icon"><span class="fa fa-twitter"></span></div>
+                            <div class="b-info__twitter-article-content">
+                                <p>Luxury vehicles are known for retaining their value better than their mainstream counterparts. There are several reasons for this.</p>
+                                <span>20 minutes ago</span>
+                            </div>
+                        </div>
+                        <div class="b-info__twitter-article wow zoomInUp" data-wow-delay="0.3s">
+                            <div class="b-info__twitter-article-icon"><span class="fa fa-twitter"></span></div>
+                            <div class="b-info__twitter-article-content">
+                                <p>Luxury vehicles require specialized maintenance and repair facilities that are tailored to their unique needs. Luxury car dealerships have state-of-the-art service centers staffed by certified technicians who are trained in the intricacies of luxury vehicle maintenance.</p>
+                                <span>20 minutes ago</span>
+                            </div>
+                        </div>
+                        <div class="b-info__twitter-article wow zoomInUp" data-wow-delay="0.3s">
+                            <div class="b-info__twitter-article-icon"><span class="fa fa-twitter"></span></div>
+                            <div class="b-info__twitter-article-content">
+                                <p>When you buy a luxury status car, you're not just buying a vehicle – you're buying into a world of exclusive services and benefits.</p>
+                                <span>20 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <address class="b-info__contacts wow zoomInUp" data-wow-delay="0.3s">
+                        <p>contact us</p>
+                        <div class="b-info__contacts-item">
+                            <span class="fa fa-map-marker"></span>
+                            <em>Munyonyo, Tank Hill Road,
+                                Kampala-Uganda</em>
+                        </div>
+                        <div class="b-info__contacts-item">
+                            <span class="fa fa-phone"></span>
+                            <em>Phone: +256 624-5462</em>
+                        </div>
+                        <div class="b-info__contacts-item">
+                            <span class="fa fa-fax"></span>
+                            <em>FAX: +256 624-5462</em>
+                        </div>
+                        <div class="b-info__contacts-item">
+                            <span class="fa fa-envelope"></span>
+                            <em>Email: luxurystatus@info.com</em>
+                        </div>
+                    </address>
+                    <address class="b-info__map">
+                        <a href="contacts.html">Open Location Map</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--b-info-->
+
+    <footer class="b-footer">
+        <a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="b-footer__company wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="b-nav__logo">
+                            <h3><a href="home.html">Luxury<span>Status</span></a></h3>
+                        </div>
+                        <p>&copy; 2023 Designed by Templines &amp; Powered by WordPress.</p>
+                    </div>
+                </div>
+                <div class="col-xs-8">
+                    <div class="b-footer__content wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="b-footer__content-social">
+                            <a href="#"><span class="fa fa-facebook-square"></span></a>
+                            <a href="#"><span class="fa fa-twitter-square"></span></a>
+                            <a href="#"><span class="fa fa-google-plus-square"></span></a>
+                            <a href="#"><span class="fa fa-instagram"></span></a>
+                            <a href="#"><span class="fa fa-youtube-square"></span></a>
+                            <a href="#"><span class="fa fa-skype"></span></a>
+                        </div>
+                        <nav class="b-footer__content-nav">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="404.html">Services</a></li>
+                                <li><a href="contacts.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--b-footer-->
+    <!--Main-->
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="assets/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/classie.js"></script>
+
+    <!--Switcher-->
+    <script src="assets/switcher/js/switcher.js"></script>
+    <!--Owl Carousel-->
+    <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+    <!--bxSlider-->
+    <script src="assets/bxslider/jquery.bxslider.js"></script>
+    <!-- jQuery UI Slider -->
+    <script src="assets/slider/jquery.ui-slider.js"></script>
+
+    <!--Theme-->
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
